@@ -1,8 +1,8 @@
 # Sign-up Form
 
-A simple sign-up page for a fictitious productivity app called ZenDo.
+A simple mobile-friendly sign-up page for a fictitious productivity app called ZenDo.
 
-Built using HTML and CSS
+Built using HTML, CSS, and Javascript
 
 [Live Demo](https://pdtru.github.io/sign-up-form/)
 
