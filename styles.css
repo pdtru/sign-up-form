@@ -53,7 +53,14 @@ input {
     border-color: #eeeff5;
 }
 
+input::placeholder {
+    font-weight: 500;
+    color: #b6b7c0;
+}
+
 button {
+    width: 100%;
+    font-weight: 500;
     color: #eff5fe;
     height: 45px;
     border-radius: 5px;
