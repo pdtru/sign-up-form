@@ -5,7 +5,6 @@
 html,
 body {
     display: flex;
-    height: 100vh;
     width: 100vw;
     margin: 0;
     padding: 0;
@@ -33,25 +32,30 @@ body {
 }
 
 .form {
+    width: auto;
+    height: auto;
     display: flex;
     flex-direction: column;
-    gap: 12px;
+    gap: 16px;
     margin: auto;
 }
 
 label {
+    font-size: 20px;
+
     font-weight: 500;
     color: #75839b;
 }
 
 input {
-    height: 45px;
+    height: 50px;
     border-style: solid;
     border-radius: 5px;
     border-color: #eeeff5;
 }
 
 input::placeholder {
+    font-size: 16px;
     font-weight: 500;
     color: #b6b7c0;
 }
@@ -61,7 +65,7 @@ button {
     width: 100%;
     font-weight: 500;
     color: #eff5fe;
-    height: 45px;
+    height: 50px;
     border-radius: 5px;
     border-style: none;
     background-color: #666af6;
@@ -69,7 +73,7 @@ button {
 
 .footer {
     font-weight: 500;
-    font-size: 14px;
+    font-size: 16px;
     color: #d1d2d8;
     margin: 0;
 }
@@ -86,7 +90,6 @@ button {
 .right-header {
     margin: 12px;
     color: #666af6;
-    text-align: start;
 }
 
 .right-subtext {
