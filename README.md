@@ -6,4 +6,4 @@ Built using HTML, CSS, and Javascript
 
 [Live Demo](https://pdtru.github.io/sign-up-form/)
 
-Images used from https://themeisle.com/illustrations/
+Images used from https://themeisle.com/illustrations/ and https://icons8.com/
