@@ -1,9 +1,12 @@
-(function () {
-    const mainContainer = document.getElementsByClassName("main-container");
-    console.log(mainContainer)
+const mainContainer = document.getElementsByClassName("main-container");
+const onResize = (event) => {
     if (mainContainer.length == 1 && window.innerWidth < window.innerHeight) {
         mainContainer[0].style.flexDirection = 'column-reverse';
     } else {
-        document.body.style.height = '100vh';
+        mainContainer[0].style.flexDirection = 'row';
     }
+}
+
+(function () {
+    addEventListener("resize", onResize);
 })();
