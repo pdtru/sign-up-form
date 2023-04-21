@@ -6,7 +6,7 @@
     A simple responsive sign-up page for a fake productivity company called ZenDo.
     <br>
     <br>
-    <a href="https://github.com/othneildrew/Best-README-Template">View Demo</a>
+    <a href="https://pdtru.github.io/sign-up-form/">View Demo</a>
     <br>
     <br>
     <img src="images/sign-up.png">
