@@ -1,51 +1,75 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
     <script src="app.js" defer></script>
     <link rel="icon" type="image/png" href="images/favicon.png" />
     <title>Sign Up | ZenDo.</title>
-</head>
+  </head>
 
-<body>
+  <body>
     <div class="main-container">
-        <div class="left-container">
-            <form class="form">
-                <div>
-                    <h3 class="form-subtext">START FOR FREE</h3>
-                    <h1 class="form-header">Sign up to<span class="logo">ZenDo.</span></h1>
-                    <h3 class="form-subtext">Already a member? &nbsp;<a>Login</a></h3>
-                </div>
-                <label for="name">Name</label>
-                <input type="text" id="name" name="name" placeholder="Enter your name here" required>
+      <div class="left-container">
+        <form class="form">
+          <div>
+            <h3 class="form-subtext">START FOR FREE</h3>
+            <h1 class="form-header">
+              Sign up to<span class="logo">ZenDo.</span>
+            </h1>
+            <h3 class="form-subtext">Already a member? &nbsp;<a>Login</a></h3>
+          </div>
+          <label for="name">Name</label>
+          <input
+            type="text"
+            id="name"
+            name="name"
+            placeholder="Enter your name here"
+            required
+          />
 
-                <label for="email">E-mail</label>
-                <input type="email" id="email" name="email" placeholder="name@mail.com" required>
+          <label for="email">E-mail</label>
+          <input
+            type="email"
+            id="email"
+            name="email"
+            placeholder="name@mail.com"
+            required
+          />
 
-                <label for="password">Password</label>
-                <input type="password" id="password" name="password" placeholder="6+ Characters, 1 Capital letter"
-                    required>
-                <button type="submit">Create an account</button>
-            </form>
-            <footer class="footer">Copyright&nbsp &copy &nbsp<a
-                    href="https://github.com/pdtru">pdtru</a>&nbsp;&nbsp;2023
-            </footer>
+          <label for="password">Password</label>
+          <input
+            type="password"
+            id="password"
+            name="password"
+            placeholder="6+ Characters, 1 Capital letter"
+            required
+          />
+          <button type="submit">Create an account</button>
+        </form>
+        <footer class="footer">
+          Copyright&nbsp &copy &nbsp<a href="https://github.com/pdtru">pdtru</a
+          >&nbsp;&nbsp;2023
+        </footer>
+      </div>
+      <div class="right-container">
+        <div>
+          <h1 class="right-header">
+            <img class="logo" src="images/logo-image.png" /><span class="logo"
+              >ZenDo.</span
+            >
+          </h1>
+          <h3 class="right-subtext">
+            Boost your productivity with
+            <span class="small-logo">ZenDo.</span> The ultimate task management
+            tool.<br />
+            Designed with a user-friendly interface and intuitive features.
+          </h3>
         </div>
-        <div class="right-container">
-            <div>
-                <h1 class="right-header"><img class="logo" src="images/logo-image.png"><span class="logo">ZenDo.</span>
-                </h1>
-                <h3 class="right-subtext">Boost your productivity with <span class="small-logo">ZenDo.</span> The
-                    ultimate task management tool.<br>
-                    Designed with a user-friendly interface and intuitive features.</h3>
-            </div>
-            <img class="illustration" src="images/illustration.svg">
-        </div>
+        <img class="illustration" src="images/illustration.svg" />
+      </div>
     </div>
-</body>
-
+  </body>
 </html>
