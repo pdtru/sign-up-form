@@ -1,5 +1,5 @@
 const mainContainer = document.getElementsByClassName('main-container');
-const onResize = (event) => {
+const onLoad = (event) => {
   if (mainContainer.length == 1 && window.innerWidth < window.innerHeight) {
     mainContainer[0].style.flexDirection = 'column-reverse';
   } else {
@@ -8,5 +8,5 @@ const onResize = (event) => {
 };
 
 (function () {
-  addEventListener('resize', onResize);
+  addEventListener('load', onLoad);
 })();
